@@ -12,7 +12,5 @@ public class work2
             System.out.print("\n");
             j =j-1;
         }
-
     }
-
 }
