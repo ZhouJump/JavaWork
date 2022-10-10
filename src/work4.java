@@ -10,7 +10,7 @@ public class work4 {
                     }
                 }
                 if (sum == i) {
-                    System.out.println(i);
+                    System.out.println(i+"是完数");
                 }
             }
         }
