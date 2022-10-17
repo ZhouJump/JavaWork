@@ -1,9 +1,9 @@
 package work2;
 
 /**
- * @author SXL601020
+ * @author 周楚杰
  */
-public class ZhouChuJie {
+public class ZhouChujieProgram {
     private int data;
     private String str;
 
