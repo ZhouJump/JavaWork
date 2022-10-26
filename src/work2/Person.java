@@ -11,9 +11,18 @@ public class Person
     public String address;
     public void addVage(Manager newPerson)
     {
-        if (newPerson.level == "A")
+        if (newPerson.level.equals("A"))
             newPerson.wage = newPerson.wage*1.2;
         newPerson.wage = newPerson.wage*1.1;
+    }
+    public void printinfo(Manager newPerson)
+    {
+        System.out.println("姓名："+newPerson.name);
+        System.out.println("住址："+newPerson.address);
+        System.out.println("工号："+newPerson.ID);
+        System.out.println("工资："+newPerson.wage);
+        System.out.println("工龄："+newPerson.age);
+        System.out.println("等级："+newPerson.level);
     }
 }
 
