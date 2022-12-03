@@ -16,4 +16,5 @@ public class ZhouChujieTicket
         new Thread(impl,"9").start();
         new Thread(impl,"10").start();
     }
+
 }
